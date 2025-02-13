@@ -7,8 +7,7 @@ module.exports = async (phase, { defaultConfig }) => {
     async headers() {
       return [
         {
-          source:
-            "/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)",
+          source: "/(_next/static.*)",
           headers: [
             {
               key: "Cache-Control",
