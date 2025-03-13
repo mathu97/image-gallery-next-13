@@ -1,0 +1,11 @@
+env:
+  - variable: TEST_ENV
+    value: TEST SERVER ENV
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_TEST_ENV
+    value: TEST NEXT PUBLIC TEST ENV
+    availability:
+      - BUILD
+      - RUNTIME
